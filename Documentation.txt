@@ -1,0 +1,42 @@
+Assignment Part A:
+
+a)  Introduction:
+    The website I have to chosen to improve is the Namibian governments Office of the Prime Minister's website
+    https://opm.gov.na/ .More specifically, I have chosen to re-work the home page. The target audience for the 
+    website is Namibian citizens who want to know more about the Office of the Prime Minister, e.g what they do 
+    ,upcoming projects or simply keep track of public service announcements or statements. This includes all age groups,
+    eg students upto retired citizens. Members of the public can also use this site to keep track of the progress of the 
+    various undertakings of the OPM via reports available for download.  
+
+    In order for the site to be accessible to the target audience, it has to be simple to navigate and simple to 
+    find the desired content. This includes easy access to the necessary links to download reports or other documents,
+    aswell as an easy way to navigate sections that display announcements or other statements.
+
+    The visual design is inadequate when compared to more modern designs. The layout of the page is 
+    somewhat confusing with some components repeated in different sections. The color scheme is not 
+    appealing. Furthermore, some elements are not centered when they should be and others are innappropriately 
+    sized compared to their neighbours. 
+
+b)  The website is responsive to changing screen sizes. The fonts scale accordingly when switching from a desktop view 
+    to a mobile view. The same can be said for images. Additionally, the navigation bar collapses into a dropdown menu 
+    when a certain screensize is reached. The site content is also rearranged depending on screensize. In terms of loading time,
+    the site loads quickly, even on slower connections. Furthermore, images and other linked content load almost instantly 
+    with most content loaded once the user is ready to start browsing the site.
+
+    While the layout does change according to screen size, the mobile view rearranges the content in a confusing way 
+    when compared to the desktop version. 
+
+c)  The site content is relevant to what is expected but is presented in a somewhat unclear way. The latest statements are layed out 
+    in an easily accessible manner but only with the desktop layout. In the mobile layout, the statemnets are mixed with what would 
+    have been sidebar content in the desktop layout.  
+
+    With the desktop layout, the all functional requirements were met. However, with the mobile layout, certain tables are cut short 
+    and make it extremely difficult to view all the information or download the shared documents due to conflicting font and background
+    colours.
+
+d)  Navigation is easy due to the provided navigation bar and links provided within the content. It is easy to see where everything can be 
+    found without having follow various links to eventually get to the content you want. Labels are clear and accurately describe the content 
+    that will be found under that section. Navigation is like following a well made map through an unknown city.
+    
+    Global navigation is provided by the navigate bar that is always present at the top of the page. The is little to no local navigation aside 
+    from scrolling down. Most pages are well defined and display only relevant content that requires no through different sections.
