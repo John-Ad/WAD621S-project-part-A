@@ -6,6 +6,9 @@
     flex-direction: row;
     justify-content: space-between;
 
+    position: sticky;
+    top: 0;
+
     width: 95%;
     height: 8vh;
 
@@ -13,6 +16,9 @@
     margin-right: auto;
 
     margin-bottom: 20px;
+
+    background-color: white;
+    z-index: 9999;
 
     border: 1px solid black;
     border-radius: 5px;
@@ -78,17 +84,6 @@
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-
-    border: 1px solid black;
-}
-
-#infocus-container{
-    width: 97%;
-    height: 45vh;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2px;
 
     border: 1px solid black;
 }
