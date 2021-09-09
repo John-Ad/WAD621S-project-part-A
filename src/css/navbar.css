@@ -1,0 +1,56 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+
+    width: 95%;
+    height: 8vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 20px;
+
+    background-color: white;
+    z-index: 9999;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+#navbar img{
+    width: 35%;
+    max-width: 35%;
+}
+
+#navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 65%;
+}
+
+#navbar div h4{
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+#dropdown{
+    width: fit-content;
+    height: 100%;
+}
+
+.dropdown-items{
+    display: hidden;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: red;
+}
