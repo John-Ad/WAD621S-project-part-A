@@ -1,0 +1,20 @@
+#social-media{
+    width: 97%;
+    height: 50vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: 1px solid black;
+
+    overflow-y: auto;
+}
+
+    /*####      TWITTER      ####*/
+    #twitter-timeline{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
