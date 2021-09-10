@@ -3,12 +3,12 @@
 <html>
 
 <head>
-    <script src="./src/js/main.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/infocus.css">
     <link rel="stylesheet" href="./css/latestStatements.css">
     <link rel="stylesheet" href="./css/socialMedia.css">
+    <link rel="stylesheet" href="./css/slideshow.css">
 </head>
 
 <body>
@@ -100,7 +100,25 @@
             <!--#########################################-->
             <div>
 
+                <!--#########################################-->
+                <!--           SLIDESHOW                     -->
+                <!--#########################################-->
                 <div id="slideshow">
+
+                    <div class="slide fade">
+                        <div class="slide-number">1 / 2</div>
+                        <img src="https://opm.gov.na/image/journal/article?img_id=1593370&t=1629722032327"
+                            style="width: 100%;">
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="slide-number">2 / 2</div>
+                        <img src="https://opm.gov.na/image/journal/article?img_id=1593372&t=1629722050366"
+                            style="width: 100%;">
+                    </div>
+
+                    <a class="slide-prev" onclick="showSlide(-1)">&#10094;</a>
+                    <a class="slide-next" onclick="showSlide(1)">&#10095;</a>
 
                 </div>
 
@@ -221,6 +239,10 @@
         </div>
 
     </div>
+
+    <script src="./js/slideshow.js"></script>
+    <script src="./js/main.js"></script>
+
 </body>
 
 </html>
