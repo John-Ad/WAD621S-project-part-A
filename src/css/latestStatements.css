@@ -5,7 +5,7 @@
     flex-direction: column;
 
     width: 99%;
-    min-height: 50%;
+    min-height: 50vh;
     height: fit-content;
 
     margin-top: 10px;
@@ -13,7 +13,8 @@
     margin-right: auto;
     margin-bottom: 5px;
 
-    border: 1px solid black;
+    border: 1px solid #777;
+    border-radius: 5px;
 }
 
     /*####      HEADER      ####*/
