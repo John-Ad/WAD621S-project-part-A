@@ -66,3 +66,22 @@
         .other-info-items a:hover{
                 color: #3333FF;
         }
+
+@media (max-width: 600px){
+
+    .other-info-items{
+        width: 49%;
+    }
+        .other-info-items ul{
+            width: 90%;
+        }
+        .other-info-items li{
+            width: 85%;
+            word-wrap: break-word;
+        }
+        .other-info-items a{
+            width: 90%;
+            text-align: center;
+            font-size: small;
+        }
+}

@@ -55,3 +55,12 @@
         }
         
     
+@media (max-width: 600px){
+    #footer-details{
+        flex-direction: column;
+        justify-content: unset;
+    }
+        #footer-details p{
+            text-align: center;
+        }
+}

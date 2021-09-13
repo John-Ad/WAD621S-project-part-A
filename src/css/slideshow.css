@@ -19,6 +19,7 @@
     }
 
         .slide img{
+            height: 55vh;
             max-width: 100%;
             max-height: 55vh;
         }
@@ -94,3 +95,13 @@
 
 
 
+
+@media (max-width: 600px){
+    #slideshow{
+        height: 30vh;
+    }
+        .slide img{
+            height: 30vh;
+            max-height: 30vh;
+        }
+}
