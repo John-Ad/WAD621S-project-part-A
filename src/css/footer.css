@@ -9,8 +9,8 @@
 
     background-color: #EEE;
 
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: 2px solid #5555FF;
+    border-bottom: 2px solid #5555FF;
     border-radius: 5px;
 } 
     #footer-title{
@@ -36,6 +36,11 @@
         border-top: 1px solid #3333FF;
         border-bottom: 1px solid #3333FF;
     }
+
+        #footer-contact p a{
+            text-decoration: none;
+            margin-right: 10px;
+        }
 
     #footer-details{
         display: flex;
