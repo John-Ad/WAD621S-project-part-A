@@ -1,5 +1,7 @@
 Assignment Part A:
 
+The code for the page I reworked can be found on github: https://github.com/John-Ad/WAD621S-project-part-A
+
 a)  Introduction:
     The website I have to chosen to improve is the Namibian governments Office of the Prime Minister's website
     https://opm.gov.na/ .More specifically, I have chosen to re-work the home page. The target audience for the 
@@ -10,33 +12,76 @@ a)  Introduction:
 
     In order for the site to be accessible to the target audience, it has to be simple to navigate and simple to 
     find the desired content. This includes easy access to the necessary links to download reports or other documents,
-    aswell as an easy way to navigate sections that display announcements or other statements.
+    aswell as an easy way to navigate sections that display announcements or other statements. The site provides the 
+    necessary content, but due to the layout, it can be difficult to find it. 
 
-    The visual design is inadequate when compared to more modern designs. The layout of the page is 
-    somewhat confusing with some components repeated in different sections. The color scheme is not 
-    appealing. Furthermore, some elements are not centered when they should be and others are innappropriately 
-    sized compared to their neighbours. 
+    The visual design is inadequate when compared to more modern designs due to a lack of styling. The layout of the page is 
+    somewhat confusing with some components repeated in different sections. The color scheme is not appealing and appears to clash.
+    Furthermore, some elements are not centered when they should be and others are innappropriately sized compared to their neighbours.
+    Most of the issues come from improper text and image alignment. I fixed these issues in my implementation where all elements are spaced 
+    evenly and centered correctly, including images. The top image above the navigation bar has been moved next to the navbar and made smaller
+    This saves space and allows the user to focus on more important content. The black background was changed to white to be less distracting to users.
+    Furthermore, Certain titles were given colour to make them stand out more. 
 
-b)  The website is responsive to changing screen sizes. The fonts scale accordingly when switching from a desktop view 
-    to a mobile view. The same can be said for images. Additionally, the navigation bar collapses into a dropdown menu 
-    when a certain screensize is reached. The site content is also rearranged depending on screensize. In terms of loading time,
-    the site loads quickly, even on slower connections. Furthermore, images and other linked content load almost instantly 
-    with most content loaded once the user is ready to start browsing the site.
+    The navigation bar was moved to the top and made to be a single component rather than splitting everything up. This somewhat improves the way the 
+    page looks. The sign in button was also moved into the navbar since it was a bit hidden and off to the side in the original page.
 
-    While the layout does change according to screen size, the mobile view rearranges the content in a confusing way 
-    when compared to the desktop version. 
+b)  The website is responsive to changing screen sizes but the layout does not get reorganized in an intuitive manner. When resized to a 
+    mobile view, the infocus section is placed underneath the latest statements header followed by the actual statements and then the social 
+    media section. This is confusing since the social media section and infocus section are in one column together on the desktop view.
+
+    In my reworked version, I kept the different sections together in an order I felt would keep important things at the top in a manner that resembles 
+    the desktop view. This stops users from having to get use to a new layout whenever they move from desktop to mobile.
+    
+    The fonts scale accordingly when switching from a desktop view to a mobile view. The same can be said for images. Additionally, the navigation
+    bar collapses into a dropdown menu when a certain screensize is reached which makes for a great user experience.. The site content is also rearranged 
+    depending on screensize. In terms of loading time, the site loads quickly, even on slower connections. Furthermore, images and other linked content
+    load almost instantly with most content loaded once the user is ready to start browsing the site.
+
+    The font colors do not hide or make content difficult to read which was in issue in some of the other government websites. A generic font was chosen 
+    which I changed in my implementation to make headings and certain bits of information stand out more.
+
+    Some sections have to borders or background changes to make them distinct from the surrounding content. I changed this and the separations explicit. 
 
 c)  The site content is relevant to what is expected but is presented in a somewhat unclear way. The latest statements are layed out 
     in an easily accessible manner but only with the desktop layout. In the mobile layout, the statemnets are mixed with what would 
     have been sidebar content in the desktop layout.  
 
-    With the desktop layout, the all functional requirements were met. However, with the mobile layout, certain tables are cut short 
-    and make it extremely difficult to view all the information or download the shared documents due to conflicting font and background
+    In the infocus section, I made each container scrollable to save space if more links are added. This keeps the sidebar content neatly organized.
+    Furthermore, I changed the twitter section to allow the user to scroll through older tweets. The original site only showed the latest tweet. I also 
+    increased its height for a better reading experience. 
+
+    For the latest statements section, I gave dedicated more space to it and separated it from the public servant circulars and covid information sections.
+    
+    With the desktop layout, the all functional requirements were met. However, with the mobile layout, certain tables on other pages of the site 
+    are cut short and make it extremely difficult to view all the information or download the shared documents due to conflicting font and background
     colours.
+
+    The content of the page I reworked (the home page) is as follows:
+
+
+    *   Navigation bar:     provides links to the site's other pages
+    *   Main content:
+            -   Latest statements:  provides short statements about the recent activities of the office of the prime minister
+            -   Covid Information:  provides links to various rules, regulations, and other documents relating to covid-19
+            -   Public servant circulars:   provides links to various documents for public servants
+    *   Sidebar content:
+            -   Reports section:    provides links to various report documents
+            -   Ministers performance agreements:    provides links to performance agreements by year
+            -   Twitter section:    displays tweets from the Office of the Prime Ministers twitter page
+    *   Other Documents section:    provides links to various other site pages where more documents can be found to download
+    *   Footer:  provides general information such as phone numbers, email addresses, address, and copy right information
+
+
 
 d)  Navigation is easy due to the provided navigation bar and links provided within the content. It is easy to see where everything can be 
     found without having follow various links to eventually get to the content you want. Labels are clear and accurately describe the content 
     that will be found under that section. Navigation is like following a well made map through an unknown city.
     
     Global navigation is provided by the navigate bar that is always present at the top of the page. The is little to no local navigation aside 
-    from scrolling down. Most pages are well defined and display only relevant content that requires no through different sections.
+    from scrolling down. Most pages are well defined and display only relevant content that does not require going through different sections to find.
+
+    Navigating to another page can be difficult because the navbar remains in place when the user scrolls down. There is no button to scroll to top, which 
+    makes reading and then going to another page inconvenient. I fixed this by making the navbar stick to the top while the user is scrolling.
+
+
